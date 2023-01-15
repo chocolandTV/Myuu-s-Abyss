@@ -5,10 +5,12 @@ using UnityEngine;
 public class JumpPad : MonoBehaviour
 {
     [SerializeField] private float bounce = 20f;
-    private void OnCollisionEnter(Collision other) {
+    private void OnTriggerEnter(Collider other) {
+        
+        Debug.Log(" JUMPING");
         if(other.gameObject.CompareTag("Player"))
         {
-            other.gameObject.GetComponent<Rigidbody>().AddForce(Vector3.up * bounce,ForceMode.Impulse);
+            other.gameObject.GetComponent<CharacterController>().Move(Vector3.up * bounce);
         }
     }
 }

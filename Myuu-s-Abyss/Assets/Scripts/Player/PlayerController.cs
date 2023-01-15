@@ -65,8 +65,8 @@ public class PlayerController : MonoBehaviour
     }
     private void Rotate()
     {
-        // look_rotation.y += look_Vector.x* look_Sensitivity * Time.deltaTime;
-        // transform.localEulerAngles = look_rotation;
+        look_rotation.y += look_Vector.x* look_Sensitivity * Time.deltaTime;
+        transform.localEulerAngles = look_rotation;
     }
     private void Jump()
     {
