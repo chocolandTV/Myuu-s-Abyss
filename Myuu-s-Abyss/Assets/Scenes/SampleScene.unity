@@ -227,7 +227,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 188828463}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_LocalPosition: {x: 0, y: 0.47, z: 0}
+>>>>>>> PlayerController
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -245,8 +249,13 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
+<<<<<<< HEAD
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+=======
+  m_Size: {x: 1, y: 1.2513311, z: 1}
+  m_Center: {x: 0, y: 0.12566555, z: 0}
+>>>>>>> PlayerController
 --- !u!114 &188828466
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,7 +268,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d18df82bc133be940bec52dba5d802ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   bounce: 20
+=======
+  bounce: 5
+>>>>>>> PlayerController
 --- !u!1 &277021127
 GameObject:
   m_ObjectHideFlags: 3
@@ -355,16 +368,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &432232150 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1514051042690670810, guid: 734c2c2011dce824ca5503f42a89d783, type: 3}
-  m_PrefabInstance: {fileID: 1514051042812130828}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &432232157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1514051042690670801, guid: 734c2c2011dce824ca5503f42a89d783, type: 3}
   m_PrefabInstance: {fileID: 1514051042812130828}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 --- !u!54 &432232160
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -381,6 +390,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+=======
+>>>>>>> PlayerController
 --- !u!1 &580497748
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,7 +895,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1514051042690670803, guid: 734c2c2011dce824ca5503f42a89d783, type: 3}
       propertyPath: m_Height
+<<<<<<< HEAD
       value: 1.8
+=======
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1514051042690670806, guid: 734c2c2011dce824ca5503f42a89d783, type: 3}
+      propertyPath: m_Height
+      value: 2
+>>>>>>> PlayerController
       objectReference: {fileID: 0}
     - target: {fileID: 1514051042690670810, guid: 734c2c2011dce824ca5503f42a89d783, type: 3}
       propertyPath: m_Name
